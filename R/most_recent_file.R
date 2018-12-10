@@ -7,8 +7,11 @@
 #'
 #' @export
 #'
+#' @importFrom checkmate assertDirectoryExists
+#'
 #' @examples
 #' most_recent_file(tempdir())
 most_recent_file <- function(path, n = 1) {
-
+    # Check whether path is valid directory
+    assertDirectoryExists(x = path, access = "r")
 }

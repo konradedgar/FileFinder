@@ -5,6 +5,9 @@
 
 [![Travis build
 status](https://travis-ci.org/konradedgar/FileFinder.svg?branch=master)](https://travis-ci.org/konradedgar/FileFinder)
+[![codecov](https://codecov.io/gh/konradedgar/FileFinder/branch/master/graph/badge.svg)](https://codecov.io/gh/konradedgar/FileFinder)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/konradedgar/FileFinder?branch=master&svg=true)](https://ci.appveyor.com/project/konradedgar/FileFinder)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/FileFinder)](https://cran.r-project.org/package=FileFinder)
 

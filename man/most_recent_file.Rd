@@ -4,14 +4,14 @@
 \alias{most_recent_file}
 \title{Most Recent File}
 \usage{
-most_recent_file(path, n = 1, full.names = TRUE)
+most_recent_file(path, n = 1, ...)
 }
 \arguments{
 \item{path}{Valid folder path}
 
-\item{n}{Number of files to return defulats to 1}
+\item{n}{Number of files to return defulats to 1; as in \code{\link[base]{head}}.}
 
-\item{full.names}{As in \code{\link[base]{list.files}} defaults to \code{TRUE}.}
+\item{...}{As in \code{\link[base]{list.files}}.}
 }
 \value{
 A vector with file paths of length \code{n}.

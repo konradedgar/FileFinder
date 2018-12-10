@@ -3,6 +3,11 @@
 
 # FileFinder
 
+[![Travis build
+status](https://travis-ci.org/konradedgar/FileFinder.svg?branch=master)](https://travis-ci.org/konradedgar/FileFinder)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/FileFinder)](https://cran.r-project.org/package=FileFinder)
+
 Small package providing basic set of utility functions for finding files
 of selected characteristics.
 

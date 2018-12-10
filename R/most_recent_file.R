@@ -26,13 +26,18 @@ most_recent_file <- function(path,
     dta_files[with(data = dta_files,
                    expr = {
                        order(mtime, decreasing = TRUE)
-                   }),] -> dta_files
+                   }), ] -> dta_files
 
     # Get selected number of rows
-    dta_match <- dta_files[1:n,]
+    dta_match <- dta_files[1:n, ]
     # Get file names
     if (full.names) {
-        rownames(dta_match) -> res
+        gsub(
+            x = rownames(dta_match),
+            pattern = "//",
+            replacement = "/",
+            fixed = TRUE
+        ) -> res
     } else {
         unlist(dta_match$basename) -> res
     }

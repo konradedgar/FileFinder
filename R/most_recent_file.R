@@ -1,7 +1,7 @@
 #' @title Most Recent File
 #'
 #' @param path Valid folder path
-#' @param n Number of files to return defulats to 1; as in \code{\link[base]{head}}.
+#' @param n Number of files to return defaults to 1; as in \code{\link[base]{head}}.
 #' @param ... As in \code{\link[base]{list.files}}.
 #'
 #' @return A vector with file paths of length \code{n}.

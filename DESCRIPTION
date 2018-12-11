@@ -1,6 +1,6 @@
 Package: FileFinder
 Title: Small Function for Finding Files
-Version: 0.0.0.9000
+Version: 0.0.0.95
 Authors@R: 
     person(given = "Konrad",
            family = "Zdeb",
@@ -9,7 +9,11 @@ Authors@R:
 Description: The package provides a collection of small utility functions that
   can be used to find file paths reflecting modification dates and other
   characteristics like size.
+Depends: R (>= 3.3.0)
+Imports: 
+    checkmate (>= 1.8.5)
 License: MIT + file LICENSE
 Encoding: UTF-8
+Suggests: testthat
 LazyData: true
 RoxygenNote: 6.1.1

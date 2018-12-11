@@ -9,7 +9,7 @@ most_recent_file(path, n = 1, ...)
 \arguments{
 \item{path}{Valid folder path}
 
-\item{n}{Number of files to return defaults to 1; as in \code{\link[base]{head}}.}
+\item{n}{Number of files to return defaults to 1; as in \code{\link[utils]{head}}.}
 
 \item{...}{As in \code{\link[base]{list.files}}.}
 }

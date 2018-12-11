@@ -2,3 +2,4 @@
 
 export(most_recent_file)
 importFrom(checkmate,assertDirectoryExists)
+importFrom(utils,head)

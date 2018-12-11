@@ -29,7 +29,7 @@ most_recent_file <- function(path,
                    }), ] -> dta_files
 
     # Get selected number of rows
-    dta_match <- dta_files[1:n, ]
+    dta_match <- head(dta_files, n = 1)
     # Get file names
     if (full.names) {
         gsub(

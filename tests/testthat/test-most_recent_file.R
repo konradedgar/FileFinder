@@ -12,3 +12,12 @@ test_that(desc = "vector is of correct length",
               n = 1
           ),
           n = 1))
+
+test_that(desc = "returns path",
+          code = expect_true(file.exists(
+              most_recent_file(
+                  path = Sys.getenv("R_DOC_DIR"),
+                  full.names = TRUE,
+                  n = 1
+              )
+          )))
